@@ -15,11 +15,11 @@
         
         <div class="nav-links">
             <ul>
-                <li><a href="travel.html">Home</a></li>
-                <li><a href="destination.html">Destinations</a></li>
-                <li><a href="pakages.html">Packages</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="contactus.html">Contact us</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#travel-section">Destinations</a></li>
+                <li><a href="#packages-section">Packages</a></li>
+                <li><a href="#blog-section">Blogs</a></li>
+                <li><a href="#contactus-section">Contact us</a></li>
             </ul>
         </div>
     </nav>
@@ -34,8 +34,8 @@
 
     
 
-
-    <section class="travel-destinations">
+<!-- destination section started -->
+    <section class="travel-destinations" id="travel-section">
         <h2>Explore Our Top Destinations</h2>
         <div class="destination-grid">
             <div class="destination-card">
@@ -54,9 +54,14 @@
                 <p>Marvel at the breathtaking views from Table Mountain and explore the vibrant neighborhoods of Bo-Kaap and V&A Waterfront. Enjoy the rich history and stunning coastlines.</p>
             </div>
             <div class="destination-card">
-                <img src="destination4.jpg" alt="Times Square, New York City">
+                <img src="images/new york.jpeg">
                 <h3>New York City, USA</h3>
                 <p>Discover the hustle and bustle of NYC, home to Broadway shows, world-class museums, and iconic sights like the Statue of Liberty and Central Park. The city truly never sleeps!</p>
+            </div>
+            <div class="destination-card">
+                <img src="images/switzerland.png">
+                <h3>Switzerland,Europe</h3>
+                <p>A mountainous place,home to numerous lakes,high peaks of alps,meadows,scenic view,cable cars,iconic views of valleys</p>
             </div>
         </div>
     </section>
@@ -67,13 +72,15 @@
 
 
 </section>
-<header>
+
+<!-- packages-section started -->
+<header id="packages-section">
     <h1><b>Packages for you</b></h1>
 </header>
 <section class="packages">
     
     <div class="package">
-        <h2>Beach Getaway</h2>
+        <h2>Beach Gateway</h2>
             <p>3 days and 2 nights at a beautiful beach resort.</p>
             <span class="price">$299</span>
             <button class="book-btn">Book Now</button>
@@ -94,7 +101,7 @@
         
         
           
-            <header>
+            <header id="blog-section">
                     <h1>Travel Blog</h1>
                     <p>Your guide to the world's best travel destinations</p>
                 </header>
@@ -123,6 +130,38 @@
 
        </section>
     </main>
+    <header id="contact us">
+        For any help contact us
+    </header>
+    
+
+
+
+
+      
+
+    <section class="contact-us" id="contactus-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to reach out!</p>
+        <form id="contact-form" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+
+
+
+    
     <footer>
         <p>& copy; 2024 Travel Agency. All rights reserved.</p>
     </footer>
@@ -146,5 +185,3 @@
    
    
     
-</body>
-</html>
