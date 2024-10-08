@@ -2,3 +2,70 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(124, 186, 231);
+}
+
+.contact-us {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.contact-us h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-us p {
+    text-align: center;
+    color: #666;
+}
+
+.contact-us label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact-us input, 
+.contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-us button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-us button:hover {
+    background-color: #45a049;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #04203d;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}

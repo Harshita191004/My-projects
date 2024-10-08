@@ -20,11 +20,7 @@ h1{
     text-align: center;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #333;
-    font-size: 2em;
-}
+
 
 .destination-grid {
     display: grid;
@@ -77,11 +73,7 @@ body {
     text-align: center;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #333;
-    font-size: 2em;
-}
+
 
 .destination-grid {
     display: grid;
@@ -119,4 +111,10 @@ h2 {
     color: #777;
     font-size: 0.9em;
     padding: 0 10px 10px;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(3, 3, 70);
+    color: white;
 }
