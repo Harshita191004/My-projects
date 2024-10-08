@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(images/south\ africa.png);
+    
+}
 header {
-    background-color: #02254a;
+    background-color:rgb(8, 49, 8);
     color: white;
     text-align: center;
     padding: 20px 0;
